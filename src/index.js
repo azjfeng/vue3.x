@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from "./route/router";
-
-createApp(App).use(router).mount('#root')
+import stroe from './store/store'
+createApp(App).use(router).use(stroe).mount('#root')
